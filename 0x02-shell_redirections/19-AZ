@@ -1,2 +1,5 @@
 #!/bin/bash
-echo "input" | tr 'Ac' 'Ze'
+echo "Enter input:"
+read input
+
+echo $input | tr 'Ac' 'Ze'
